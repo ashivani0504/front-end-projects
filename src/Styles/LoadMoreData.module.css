@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.loadMore {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.shoppingCart {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.products {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  border: 5px solid black;
+}
+
+.img {
+  width: 200px;
+  height: 200px;
+}
