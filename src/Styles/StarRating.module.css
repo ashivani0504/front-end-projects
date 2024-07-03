@@ -3,4 +3,20 @@
   padding: 0;
 }
 .starRating {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.active {
+  color: yellow;
+}
+.inactive {
+  color: black;
+}
+
+.star {
+  padding: 3px;
+}
+.stars {
+  margin: 20px;
 }
